@@ -22,4 +22,4 @@ jobs:
           pip install -U pytest selenium --no-cache-dir
           
       - name: Run tests with pytest
-        run: pytest  --capture=no --verbose selenium.py
+        run: pytest  --capture=no --verbose selenium_test.py
