@@ -7,7 +7,7 @@ import pytest
 #target_url = "${{ secrets.EXT_IP }}/install"
 target_url = "http://34.67.38.135/install"
 
-print("########## Running the Selenium Script ##########")
+print(" Running the Selenium Script ")
 
 @pytest.fixture(scope="session")
 def get_driver():
